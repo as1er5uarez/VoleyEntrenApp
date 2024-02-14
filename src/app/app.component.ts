@@ -4,12 +4,13 @@ import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 import { NavbarComponent } from './navbar/navbar.component';
 import { EjercicioComponent } from './ejercicio/ejercicio.component';
 import { initFlowbite } from 'flowbite';
+import { FooterComponent } from './footer/footer.component';
 
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, RouterLink, RouterLinkActive, NavbarComponent, EjercicioComponent,],
+  imports: [CommonModule, RouterOutlet, RouterLink, RouterLinkActive, NavbarComponent, EjercicioComponent, FooterComponent,],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
